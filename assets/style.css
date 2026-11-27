@@ -128,3 +128,12 @@ img{max-width:100%;height:auto}
   th,td{padding:8px 10px}
   .author{flex-direction:column;gap:8px}
 }
+
+/* v3.1: smartphone readability - more air, shorter feel */
+@media (max-width:640px){
+  body{line-height:2.0}
+  p{margin-bottom:22px}
+  li{margin-bottom:10px}
+  .pick p{margin-bottom:14px}
+  .faq dd{line-height:1.95}
+}
