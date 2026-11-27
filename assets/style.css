@@ -76,3 +76,23 @@ footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--line);font-si
   h1{font-size:23px}
   th{white-space:normal}
 }
+
+/* v2: guide components */
+.meta{font-size:13px;color:var(--muted);margin-bottom:16px}
+.quickbox{background:var(--accent-soft);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:0 0 28px}
+.quickbox h2{border:none;padding:0;margin:0 0 10px;font-size:18px}
+.quickbox ul{margin:0}
+.toc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:0 0 28px;font-size:15px}
+.toc p{font-weight:700;margin:0 0 8px}
+.toc ol{margin:0;padding-left:22px}
+.pick{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;margin:0 0 20px}
+.pick .badge{display:inline-block;background:var(--accent);color:#fff;font-size:12px;font-weight:700;border-radius:999px;padding:3px 12px;margin-bottom:10px}
+.pick h3{margin:0 0 8px;font-size:19px;line-height:1.5}
+.pick .price{font-size:14px;color:var(--muted);margin-bottom:10px}
+table.goodbad th:first-child{width:32%}
+.faq dt{font-weight:700;margin:18px 0 6px}
+.faq dd{margin:0 0 6px}
+.author{display:flex;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-top:40px;font-size:14px;line-height:1.7}
+.author .avatar{flex:0 0 48px;width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px}
+.author p{margin:0}
+.changelog{font-size:13px;color:var(--muted);border-top:1px dashed var(--line);margin-top:24px;padding-top:12px}
