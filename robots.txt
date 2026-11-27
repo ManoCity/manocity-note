@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# AIクローラーを明示的に許可する（AI検索での引用対象にするため）
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://manocity-note.com/sitemap.xml
